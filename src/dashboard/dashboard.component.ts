@@ -6,14 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
-  el: any;
-  options: any;
+
 
   constructor() { }
 
-  ngOnInit(): void {}
-  private _init() {
-    throw new Error('Method not implemented.');
+  ngOnInit(): void {
   }
 
 }

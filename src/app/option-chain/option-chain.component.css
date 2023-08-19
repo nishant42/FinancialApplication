@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.option-chain {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+.option-chain th,
+.option-chain td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.option-chain th {
+  background-color: #f0f0f0;
+}
+
+.option-chain tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+.option-chain tr:nth-child(odd) {
+  background-color: #fff;
+}
+.container {
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#company-select {
+  padding: 10px;
+  font-size: 16px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
